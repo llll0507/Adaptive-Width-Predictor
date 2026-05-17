@@ -66,7 +66,7 @@ VALUE_MODEL         = "/media/m811/1.6T/m811/models/Qwen2.5-7B-Instruct"
 
 DATA_PATH = PROJECT_ROOT / "data" / "demo.json"
 
-RESULTS_DIR = Path("/media/m811/1.6T/m811/experiment/AW-MCTS-main/adaptive_width/inference_analysis")
+RESULTS_DIR = Path("")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # ============================================================
@@ -198,7 +198,7 @@ class LDAWidthPredictor:
     """Predict optimal MCTS width (2-9) for a question using trained LDA model."""
     
     # Trained checkpoint path
-    CHECKPOINT_PATH = PROJECT_ROOT / "train_models" / "relaxed_acc_results" / "lda_width_predictor.pkl"
+    CHECKPOINT_PATH = PROJECT_ROOT / ""
 
     def __init__(self):
         if not self.CHECKPOINT_PATH.exists():

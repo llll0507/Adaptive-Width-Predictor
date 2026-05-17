@@ -14,7 +14,7 @@ CALL_INTERVAL = 21
 last_call_time = 0
 
 # Only need model path in local mode - use 0.5B small model to save VRAM
-VALUE_MODEL_DIR = "/media/m811/1.6T/m811/models/Qwen2.5-7B-Instruct"
+VALUE_MODEL_DIR = ""
 global_value_model = None
 global_tokenizer = None
 

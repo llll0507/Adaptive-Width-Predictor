@@ -74,7 +74,7 @@ def call_api_for_subq_and_answer(query, **kwargs):
     if not API_KEY:
         raise ValueError("API_KEY environment variable not set")
 
-    url = os.environ.get("BASE_URL", "https://api.moonshot.cn/v1") + "/chat/completions"
+    url = os.environ.get("BASE_URL", "") + "/chat/completions"
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {API_KEY}"
