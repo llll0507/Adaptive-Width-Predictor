@@ -91,7 +91,7 @@ def get_best_child(parent_node, mcts_task):
             )
             ucb_value = exploitation_term + exploration_term
         else:
-            ucb_value = child_node.value + 1.0  # 确保未访问的节点会被选中
+            ucb_value = child_node.value + 1.0  
 
         if ucb_value > best_value:
             best_value = ucb_value
