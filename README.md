@@ -304,3 +304,28 @@ If you use this code or dataset, please cite the original datasets:
 - **Code**: MIT License
 - **HotpotQA & 2WikiMultihopQA**: CC BY 4.0
 - **MuSiQue**: MIT License
+
+## Contribution Guidelines
+
+We warmly welcome contributions from the community! Whether you are fixing a bug, improving documentation, suggesting a new feature, or optimizing the code, your help is highly appreciated.
+
+To make the collaboration process as smooth as possible for everyone, we kindly suggest following these guidelines:
+
+1. **Fork the repository** and create a new branch for your work:
+
+   ```bash
+   git checkout -b feature/your-feature-name
+
+
+
+This helps keep the main branch clean and makes it easier to review changes.
+
+1. **Follow coding style**: We try to adhere to [PEP 8](https://peps.python.org/pep-0008/) for Python code. Consistent style makes the code more readable for all contributors.
+2. **Write meaningful commit messages**: Clear and concise commit messages help us understand the history of changes and make debugging easier.
+3. **Include tests when possible**: If you are adding new functionality or fixing a bug, adding a test is always appreciated. It helps ensure the code remains reliable over time.
+4. **Submit a Pull Request (PR)**: When you are ready, open a PR with a clear description of what you have changed and why. If your PR addresses an existing issue, please reference it (e.g., `"Closes #issue-number"`) so we can track it effectively.
+5. **Be open to feedback**: The maintainers will review your PR and may suggest improvements. We encourage a constructive and friendly discussion. Please be patient and responsive — we are all working toward the same goal!
+
+If you are planning a major change or a new feature, we recommend **opening an issue** first to discuss your idea with the maintainers. This way, we can align on the direction before you invest significant time and effort.
+
+Thank you for considering contributing to AW-MCTS! We look forward to collaborating with you.   
