@@ -16,8 +16,8 @@ last_call_time = 0  # Record last call time
 INFERENCE_LOCAL = True  # Set to True to enable local mode (for value evaluation)
 INFERENCE_MODEL_DIR = "/media/m811/1.6T/m811/models/Qwen2.5-7B-Instruct"
 
-ONLINE_API_KEY = "sk-FAmbBM6YVYtc6ClojPKb5npCEjbNehREHkBoV82QIFwwoppt"  # Add API key
-ONLINE_MODEL_NAME = "moonshot-v1-8k"  # Online model name
+ONLINE_API_KEY = ""  # Add API key
+ONLINE_MODEL_NAME = ""  # Online model name
 
 global_pipline = None
 
