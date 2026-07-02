@@ -834,7 +834,7 @@ def main():
     # ---- Adaptive width (LDA) ----
     method = "adaptive_lda"
     logger.info(f"\n{'='*50}")
-    logger.info(f"方法: {method}")
+    logger.info(f"Method: {method}")
     logger.info(f"{'='*50}")
 
     for i, (item, idx, pw) in enumerate(
