@@ -61,7 +61,7 @@ def get_answer(prompt, task, n=1):
 
 
 def get_value_score(prompt, task, n=1):
-    """专门用于获取价值评估分数的函数 - 始终使用本地模型"""
+    """Function specifically for getting value evaluation scores - always uses local model"""
     all_responses = []
     max_retries = 3
     attempts = 0
